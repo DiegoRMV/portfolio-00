@@ -1,0 +1,276 @@
+{
+  "basics": {
+    "name": "Diego Rubén Menchaca Vera",
+    "title": "Desarrollador Front End Developer.",
+    "label": [
+      "Entusiasta por el Desarrollo Web",
+      "Amante del mundo de la Programación"
+    ],
+    "image": "/images/perfil.jpg",
+    "phone": "+54 3874825248",
+    "email": "diegormver@gmail.com",
+    "url": "https://www.linkedin.com/in/diego-rub%C3%A9n-menchaca-vera-ba46b9262/",
+    "summary": "Soy una persona proactiva excelente compañero de equipo, organizado y responsable. +2 años de experiencia como Desarrollador Web. Actualmente trabajador independiente.",
+    "location": {
+      "address": "Atahualpa Yupanqui 525",
+      "postalCode": "4400",
+      "city": "Salta",
+      "countryCode": "AR",
+      "region": "Argentina"
+    }
+  },
+  "profiles": [
+    {
+      "network": "email",
+      "username": "Diego Rubén Menchaca Vera",
+      "url": "diegormver@gmail.com"
+    },
+    {
+      "network": "LinkedIn",
+      "username": "Diego Rubén Menchaca Vera",
+      "url": "https://www.linkedin.com/in/diego-rubén-menchaca-vera-ba46b9262/"
+    },
+    {
+      "network": "GitHub",
+      "username": "DiegoRMV",
+      "url": "https://github.com/DiegoRMV"
+    }
+  ],
+  "skills": {
+    "main": [
+      {
+        "name": "HTML",
+        "level": "Avanzado",
+        "image": "/svgs/html.svg"
+      },
+      {
+        "name": "CSS",
+        "level": "Avanzado",
+        "image": "/svgs/css.svg"
+      },
+      {
+        "name": "JavaScript",
+        "level": "Avanzado",
+        "image": "/svgs/javascript.svg"
+      },
+      {
+        "name": "TypeScript",
+        "level": "Avanzado",
+        "image": "/svgs/typescript.svg"
+      },
+      {
+        "name": "React",
+        "level": "Avanzado",
+        "image": "/svgs/react.svg"
+      },
+      {
+        "name": "Next",
+        "level": "Avanzado",
+        "image": "/svgs/next.svg"
+      },
+      {
+        "name": "Tailwind",
+        "level": "Avanzado",
+        "image": "/svgs/tailwind.svg"
+      },
+      {
+        "name": "Prisma",
+        "level": "Intermedio",
+        "image": "/svgs/prisma.svg"
+      },
+      {
+        "name": "Node",
+        "level": "Intermedio",
+        "image": "/svgs/node.svg"
+      },
+      {
+        "name": "Express",
+        "level": "Intermedio",
+        "image": "/svgs/express.svg"
+      },
+      {
+        "name": "Git",
+        "level": "Avanzado",
+        "image": "/svgs/git.svg"
+      },
+      {
+        "name": "GitHub",
+        "level": "Avanzado",
+        "image": "/svgs/github.svg"
+      }
+    ],
+    "others": [
+      {
+        "name": "MongoDB",
+        "level": "Avanzado",
+        "image": "/svgs/mongo.svg"
+      },
+      {
+        "name": "Postgresql",
+        "level": "Avanzado",
+        "image": "/svgs/postgresql.svg"
+      },
+      {
+        "name": "MySQL",
+        "level": "Avanzado",
+        "image": "/svgs/mysql.svg"
+      },
+      {
+        "name": "Sqlite",
+        "level": "Avanzado",
+        "image": "/svgs/sqlite.svg"
+      },
+      {
+        "name": "Supabase",
+        "level": "Intermedio",
+        "image": "/svgs/supabase.svg"
+      },
+      {
+        "name": "Docker",
+        "level": "Intermedio",
+        "image": "/svgs/docker.svg"
+      },
+      {
+        "name": "Postman",
+        "level": "Avanzado",
+        "image": "/svgs/postman.svg"
+      },
+      {
+        "name": "PHP",
+        "level": "Intermedio",
+        "image": "/svgs/php.svg"
+      },
+      {
+        "name": "Python",
+        "level": "Avanzado",
+        "image": "/svgs/python.svg"
+      },
+      {
+        "name": "C",
+        "level": "Avanzado",
+        "image": "/svgs/c.svg"
+      },
+      {
+        "name": "Java",
+        "level": "Avanzado",
+        "image": "/svgs/java.svg"
+      },
+      {
+        "name": "Bootstrap",
+        "level": "Avanzado",
+        "image": "/svgs/bootstrap.svg"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "src": "/images/game-store.png",
+      "alt": "foto de interfaz de pagina web sobre juegos",
+      "href": "https://main--gamestoregx.netlify.app/",
+      "code": "https://github.com/DiegoRMV/web-games-store.git",
+      "description": "FrontEnd  que contiene sidebar, navbar, portada y cards con informacion de algunos juegos",
+      "title": "Game Store",
+      "tech": [
+        "vite",
+        "react",
+        "javascript",
+        "tailwind",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "id": 2,
+      "src": "/images/homepage-frameworks.png",
+      "alt": "foto de homepage con informacion de frameworks",
+      "href": "https://homepage-frameworkgx.netlify.app/",
+      "code": "https://github.com/DiegoRMV/homepage-vite-tailwind.git",
+      "description": "Homepage informativo de 3 secciones sobre los frameworks mas populares del momento ",
+      "title": "FrameWorks",
+      "tech": [
+        "vite",
+        "react",
+        "javascript",
+        "html",
+        "tailwind"
+      ]
+    },
+    {
+      "id": 3,
+      "src": "/images/gxevents.png",
+      "alt": "foto de pagina web buscador de eventos",
+      "href": "https://gxsearchevents.netlify.app/",
+      "code": "https://github.com/DiegoRMV/search-events-web.git",
+      "description": "Pagina para buscar eventos utilizando API de Ticketmaster",
+      "tech": [
+        "next",
+        "react",
+        "html",
+        "typescript",
+        "tailwind"
+      ],
+      "title": "GxEvents"
+    },
+    {
+      "id": 4,
+      "src": "/images/game-store.png",
+      "alt": "captura de pagina web",
+      "href": "https://deploy-perritos.vercel.app/",
+      "code": "https://github.com/Laoset/DeployPerritos",
+      "description": "Diseño  y desarrollo una App sobre raza de perros que incluía: búsquedas, filtrados combinados, ordenamientos, consumo de API, creación, modificación y eliminación de razas.",
+      "title": "Wiki Perri",
+      "tech": [
+        "react",
+        "redux",
+        "node",
+        "express",
+        "postgresql",
+        "css"
+      ]
+    },
+    {
+      "id": 5,
+      "src": "/images/game-store.png",
+      "alt": "captura de pagina web",
+      "href": "https://studiotatto.netlify.app/",
+      "code": "https://github.com/Laoset/StudioTattoo",
+      "description": "Página informativa y de contacto enfocado hacia un estudio de tatuajes, con diferentes secciones artísticas relacionadas con el tatuador, y posibilidad de turnos mediante Instagram y mensaje directo por WhatsApp.",
+      "title": "Tattoo Studio",
+      "tech": [
+        "typescript",
+        "react",
+        "tailwind"
+      ]
+    },
+    {
+      "id": 6,
+      "src": "/images/game-store.png",
+      "alt": "captura de pagina web",
+      "href": "https://popcorn-plus.vercel.app/",
+      "code": "https://github.com/Laoset/PopcornPlus",
+      "description": "Web de streaming, mezcla entre Netflix y Disney+, consume la API de TMDB para mostrar las peliculas y series.",
+      "title": "Popcorn Plus",
+      "tech": [
+        "typescript",
+        "react",
+        "redux",
+        "tailwind"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Intermedio"
+    },
+    {
+      "language": "Portugues",
+      "fluency": "Intermedio"
+    }
+  ]
+}

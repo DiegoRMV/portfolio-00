@@ -1,20 +1,24 @@
-import About from "./components/About";
-import Home from "./components/Home";
+import About from "./view/About";
+import Home from "./view/Home";
+import Proyects from "./view/Proyects";
 import Navbar from "./components/Navbar";
-import Proyects from "./components/Proyects";
 import Footer from "./components/Footer";
 
 function App() {
 	return (
-		<main className="max-w-[1440px] mx-auto">
-			<div className="sticky top-0">
+		<div className="max-w-[1440px] mx-auto dark:bg-bgbody bg-nuevoWhite relative">
+			<header className="">
 				<Navbar />
-			</div>
-			<Home />
-			<About />
-			<Proyects />
-			<Footer />
-		</main>
+			</header>
+			<main>
+				<Home />
+				<About />
+				<Proyects />
+			</main>
+			<footer>
+				<Footer />
+			</footer>
+		</div>
 	);
 }
 
