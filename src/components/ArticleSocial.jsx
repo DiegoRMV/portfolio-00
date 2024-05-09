@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import { FaLinkedin, FaGithub, FaFilePdf } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { TfiEmail } from "react-icons/tfi";
+import resume from "/pdfs/diegormv-cv.pdf";
 
 const ArticleSocial = ({ profiles = [] }) => {
 	const socialIcons = {
@@ -41,7 +42,8 @@ const ArticleSocial = ({ profiles = [] }) => {
 				);
 			})}
 			<a
-				href="https://www.linkedin.com/in/alan-kevin-corman-samanamud-22b566176/"
+				href={resume}
+				download={"Diego/Menchaca/CV"}
 				className="cursor-pointer hover:rotate-6 duration-200 hover:opacity-75 dark:hover:text-green1 transition-all text-2xl md:text-3xl"
 				target="_blank"
 				rel="noreferrer"

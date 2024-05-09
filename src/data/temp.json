@@ -1,0 +1,14 @@
+{
+    "id": 5,
+    "src": "/images/game-store.png",
+    "alt": "captura de pagina web",
+   
+    "description": "Web de streaming, mezcla entre Netflix y Disney+, consume la API de TMDB para mostrar las peliculas y series.",
+    "title": "Popcorn Plus",
+    "tech": [
+        "typescript",
+        "react",
+        "redux",
+        "tailwind"
+    ]
+}

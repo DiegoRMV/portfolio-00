@@ -2,6 +2,7 @@
   "basics": {
     "name": "Diego Rubén Menchaca Vera",
     "title": "Desarrollador Front End Developer.",
+    "nickname": "DiegoRMV",
     "label": [
       "Entusiasta por el Desarrollo Web",
       "Amante del mundo de la Programación"
@@ -74,19 +75,14 @@
         "image": "/svgs/tailwind.svg"
       },
       {
-        "name": "Prisma",
-        "level": "Intermedio",
-        "image": "/svgs/prisma.svg"
+        "name": "Zustand",
+        "level": "Basico",
+        "image": "/zustand.ico"
       },
       {
         "name": "Node",
         "level": "Intermedio",
         "image": "/svgs/node.svg"
-      },
-      {
-        "name": "Express",
-        "level": "Intermedio",
-        "image": "/svgs/express.svg"
       },
       {
         "name": "Git",
@@ -97,28 +93,33 @@
         "name": "GitHub",
         "level": "Avanzado",
         "image": "/svgs/github.svg"
+      },
+      {
+        "name": "Postgresql",
+        "level": "Avanzado",
+        "image": "/svgs/postgresql.svg"
       }
     ],
     "others": [
+      {
+        "name": "Express",
+        "level": "Intermedio",
+        "image": "/svgs/express.svg"
+      },
+      {
+        "name": "Prisma",
+        "level": "Intermedio",
+        "image": "/svgs/prisma.svg"
+      },
       {
         "name": "MongoDB",
         "level": "Avanzado",
         "image": "/svgs/mongo.svg"
       },
       {
-        "name": "Postgresql",
-        "level": "Avanzado",
-        "image": "/svgs/postgresql.svg"
-      },
-      {
         "name": "MySQL",
         "level": "Avanzado",
         "image": "/svgs/mysql.svg"
-      },
-      {
-        "name": "Sqlite",
-        "level": "Avanzado",
-        "image": "/svgs/sqlite.svg"
       },
       {
         "name": "Supabase",
@@ -165,19 +166,20 @@
   "projects": [
     {
       "id": 1,
-      "src": "/images/game-store.png",
-      "alt": "foto de interfaz de pagina web sobre juegos",
-      "href": "https://main--gamestoregx.netlify.app/",
-      "code": "https://github.com/DiegoRMV/web-games-store.git",
-      "description": "FrontEnd  que contiene sidebar, navbar, portada y cards con informacion de algunos juegos",
-      "title": "Game Store",
+      "src": "/images/gxshop.png",
+      "alt": "captura de pagina web tienda de ropa",
+      "href": "https://gxshop.netlify.app/",
+      "code": "https://github.com/DiegoRMV/shop-web-nextjs.git",
+      "description": "Tienda de ropa web con articulos de hombre, mujer, niños y unisex. Contiene detalles de cada articulo, buscador y menu sidebar",
+      "title": "GxShop",
       "tech": [
-        "vite",
         "react",
-        "javascript",
-        "tailwind",
+        "next",
         "html",
-        "css"
+        "typescript",
+        "tailwind",
+        "node",
+        "zustand"
       ]
     },
     {
@@ -193,7 +195,8 @@
         "react",
         "javascript",
         "html",
-        "tailwind"
+        "tailwind",
+        "node"
       ]
     },
     {
@@ -208,54 +211,26 @@
         "react",
         "html",
         "typescript",
-        "tailwind"
+        "tailwind",
+        "node"
       ],
       "title": "GxEvents"
     },
     {
       "id": 4,
       "src": "/images/game-store.png",
-      "alt": "captura de pagina web",
-      "href": "https://deploy-perritos.vercel.app/",
-      "code": "https://github.com/Laoset/DeployPerritos",
-      "description": "Diseño  y desarrollo una App sobre raza de perros que incluía: búsquedas, filtrados combinados, ordenamientos, consumo de API, creación, modificación y eliminación de razas.",
-      "title": "Wiki Perri",
+      "alt": "foto de interfaz de pagina web sobre juegos",
+      "href": "https://main--gamestoregx.netlify.app/",
+      "code": "https://github.com/DiegoRMV/web-games-store.git",
+      "description": "FrontEnd  que contiene sidebar, navbar, portada y cards con informacion de algunos juegos",
+      "title": "Game Store",
       "tech": [
+        "vite",
         "react",
-        "redux",
-        "node",
-        "express",
-        "postgresql",
+        "javascript",
+        "tailwind",
+        "html",
         "css"
-      ]
-    },
-    {
-      "id": 5,
-      "src": "/images/game-store.png",
-      "alt": "captura de pagina web",
-      "href": "https://studiotatto.netlify.app/",
-      "code": "https://github.com/Laoset/StudioTattoo",
-      "description": "Página informativa y de contacto enfocado hacia un estudio de tatuajes, con diferentes secciones artísticas relacionadas con el tatuador, y posibilidad de turnos mediante Instagram y mensaje directo por WhatsApp.",
-      "title": "Tattoo Studio",
-      "tech": [
-        "typescript",
-        "react",
-        "tailwind"
-      ]
-    },
-    {
-      "id": 6,
-      "src": "/images/game-store.png",
-      "alt": "captura de pagina web",
-      "href": "https://popcorn-plus.vercel.app/",
-      "code": "https://github.com/Laoset/PopcornPlus",
-      "description": "Web de streaming, mezcla entre Netflix y Disney+, consume la API de TMDB para mostrar las peliculas y series.",
-      "title": "Popcorn Plus",
-      "tech": [
-        "typescript",
-        "react",
-        "redux",
-        "tailwind"
       ]
     }
   ],

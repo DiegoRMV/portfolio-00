@@ -17,15 +17,27 @@ const Card = ({ project }) => {
 						<p className="text-start text-sm">{description}</p>
 					</div>
 				</div>
-				<div className="flex flex-row gap-4 justify-center rounded-lg py-6 px-4">
-					{tech.map((t) => (
-						<img
-							className="w-8 lg:w-10"
-							key={t}
-							src={`/svgs/${t.toLowerCase()}.svg`}
-							alt={`logo de ${t}`}
-						/>
-					))}
+				<div className="flex flex-row flex-wrap gap-4 justify-center rounded-lg py-6 px-4">
+					{tech.map((t) => {
+						if (t === "zustand")
+							return (
+								<img
+									className="w-8 lg:w-10"
+									key={t}
+									src={`/${t.toLowerCase()}.ico`}
+									alt={`logo de ${t}`}
+								/>
+							);
+						else
+							return (
+								<img
+									className="w-8 lg:w-10"
+									key={t}
+									src={`/svgs/${t.toLowerCase()}.svg`}
+									alt={`logo de ${t}`}
+								/>
+							);
+					})}
 				</div>
 				<div className="flex flex-row justify-around p-6">
 					<Button href={href} title={"Deploy"} />

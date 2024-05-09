@@ -8,7 +8,7 @@ const Proyects = () => {
 	return (
 		<section
 			name="< proyectos />"
-			className=" flex flex-col justify-center w-full md:h-full dark:bg-otroFondo font-fireCode px-2 py-8 md:py-12 md:px-4"
+			className=" flex flex-col justify-center w-full md:h-full dark:bg-otroFondo font-fireCode px-4 pt-24 pb-4"
 		>
 			<div className="max-w-screen-xl mx-auto flex flex-col justify-center w-full h-full">
 				<div className="mb-0 md:mb-8 flex justify-center md:inline">
@@ -22,7 +22,6 @@ const Proyects = () => {
 						<Card key={project.id} project={project} />
 					))}
 				</div>
-				<div className="grid grid-cols-1 lg:grid-cols-2 h-full mt-3 w-full gap-12"></div>
 			</div>
 		</section>
 	);

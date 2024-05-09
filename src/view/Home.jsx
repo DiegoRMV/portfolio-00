@@ -6,10 +6,10 @@ import ArticleSocial from "../components/ArticleSocial";
 
 const Home = () => {
 	const { profiles, basics } = Data;
-	const { name, title, label, image } = basics;
+	const { name, nickname, title, label, image } = basics;
 
 	return (
-		<section name="< inicio />" className="dark:text-white text-gray-900 py-20">
+		<section name="< inicio />" className="dark:text-white text-gray-900 pt-24">
 			<div className="max-w-screen-xl mx-auto h-full md:flex-row px-4">
 				<div className="flex flex-col justify-center h-full">
 					<div className="flex-grow lg:flex justify-center items-center pt-2">
@@ -24,7 +24,7 @@ const Home = () => {
 						</div>
 
 						<h2 className="font-oswald xl:text-[80px]  lg:text-[60px] sm:text-[40px] text-center  text-[20px] font-bold py-2">
-							{name.split(" ")[0]}, {title}
+							{nickname}, {title}
 						</h2>
 					</div>
 

@@ -1,4 +1,4 @@
-import resume from "/pdfs/Currículum-CormanKevin-2.pdf";
+import resume from "/pdfs/diegormv-cv.pdf";
 import Data from "../data/data.json";
 import ArticleSocial from "./ArticleSocial";
 import Button from "./Button";
@@ -15,7 +15,7 @@ const Footer = () => {
 					Gracias por llegar hasta aquí !!!, puedes descargar mi CV.
 				</p>
 				<div className="py-3 flex">
-					<Button href={resume} title="Descargar CV" download={"Resume/CV"} />
+					<Button href={resume} title="Descargar CV" download={"Diego/Menchaca/CV"} />
 				</div>
 				<div className="py-3">
 					<ArticleSocial profiles={profiles} />
