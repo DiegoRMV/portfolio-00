@@ -8,7 +8,7 @@ const About = () => {
 	return (
 		<section
 			name="< sobre mi />"
-			className="w-full dark:bg-fondito2 bg-light0 text-white px-4 pt-24 md:py-12 "
+			className="w-full dark:bg-fondito2 bg-light0 text-white px-4 pt-24 pb-4"
 		>
 			<div className="max-w-screen-xl mx-auto flex flex-col justify-center w-full h-full gap-6">
 				<div className="mb-0 md:mb-8 flex justify-center md:inline">
