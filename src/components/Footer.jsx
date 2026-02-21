@@ -1,4 +1,4 @@
-import resume from "/pdfs/cvformal-diegoPro.pdf";
+import resume from "/pdfs/cvformal-diegoDev.pdf";
 import Data from "../data/data.json";
 import ArticleSocial from "./ArticleSocial";
 import Button from "./Button";
