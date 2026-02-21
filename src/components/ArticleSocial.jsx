@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { FaLinkedin, FaGithub, FaFilePdf } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { TfiEmail } from "react-icons/tfi";
-import resume from "/pdfs/cvformal-diegoPro.pdf";
+import resume from "/pdfs/cvformal-diegoDev.pdf";
 
 const ArticleSocial = ({ profiles = [] }) => {
 	const socialIcons = {
